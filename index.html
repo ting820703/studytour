@@ -304,8 +304,14 @@
 
 <p>已設定新增 md 檔的同時也新增同名資料夾</p>
 <p>若是要將圖片嵌入到這篇文章裡就要放在同名資料夾內</p>
-<p>並且用以下方式嵌入 - <strong>“<img src="%E5%90%8C%E5%90%8D%E8%B3%87%E6%96%99%E5%A4%BE%E5%85%A7%E7%9A%84%E6%AA%94%E6%A1%88%E5%90%8D%E7%A8%B1" alt>“</strong></p>
+<p>並且用以下方式嵌入 - <strong>“![](同名資料夾內的檔案名稱)“</strong></p>
 <p><img src="test.jpg" alt></p>
+<h3 id="更新部署"><a href="#更新部署" class="headerlink" title="更新部署"></a>更新部署</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d -g</span><br></pre></td></tr></table></figure>
+
+<p>大概等個兩分鐘左右頁面才會更新</p>
+<p>如果等很久都沒反應的話就用以下方法</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo d -g</span><br></pre></td></tr></table></figure>
+
 
           
         
